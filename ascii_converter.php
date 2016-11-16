@@ -45,7 +45,7 @@ if(isset($_POST['string'])){
 }
 ?>
 
-<form method="POST" action="altgo.php">
+<form method="POST" action="<?= $_SERVER['SCRIPT_NAME']; ?>">
 
 	<p>Convert ASCII to PlainText or vice versa easily.</p>
 
